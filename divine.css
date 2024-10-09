@@ -1,0 +1,50 @@
+/* Place your CSS styles in this file */
+h1 {
+    color:#212A31;
+    font-family:Arial;
+    font-weight: bold;
+    text-align: center;
+    text-size-adjust:0.58;
+    border:2px solid #748D92;
+    border-radius: 0px;
+    margin-bottom: 0px;
+
+    
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8697C4;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+li a:hover {
+  background-color: #748D92;
+}
+div {
+  padding:200px;
+  margin: auto;
+  font-size: 20px;
+  vertical-align: top;
+  text-align:left;
+  background-color:#EDE8F5;
+border:1px  solid #8697C4;
+color:3D52AO;
+font-family: cursive;
+}
+
