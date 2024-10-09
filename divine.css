@@ -1,22 +1,27 @@
 /* Place your CSS styles in this file */
 h1 {
-    color:#212A31;
-    font-family:Arial;
+    color:forestgreen;
+    font-family:auto;
     font-weight: bold;
-    text-align: center;
-    text-size-adjust:0.58;
-    border:2px solid #748D92;
+    font-size: 50px;
+    text-align: left;
+    text-size-adjust:auto;
+    border:0px solid #748D92;
     border-radius: 0px;
     margin-bottom: 0px;
-
+    margin-top: 0px;
+    width: auto;
+    height: 75px;
+    background-color:#e1e7e9;
     
 }
+/*navigation bar*/
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #8697C4;
+  background-color: forestgreen;
 }
 
 li {
@@ -29,7 +34,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: Arial;
+  font-family: math;
   font-weight: bold;
 }
 
@@ -37,14 +42,14 @@ li a:hover {
   background-color: #748D92;
 }
 div {
-  padding:200px;
+  padding:10px;
   margin: auto;
   font-size: 20px;
   vertical-align: top;
   text-align:left;
   background-color:#EDE8F5;
-border:1px  solid #8697C4;
-color:3D52AO;
-font-family: cursive;
+border:1px ;
+color:black;
+font-family: math;
 }
 
