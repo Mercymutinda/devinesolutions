@@ -5,7 +5,7 @@ h1 {
     font-weight: bold;
     font-size: 50px;
     text-align: left;
-    text-size-adjust:auto;
+    /*text-size-adjust:auto;*/
     border:0px solid #748D92;
     border-radius: 0px;
     margin-bottom: 0px;
@@ -17,7 +17,7 @@ h1 {
 }
 span {
   font-size: 50px;
-  font-family: math;
+  font-family:  Arial, sans-serif;
   color: forestgreen;
 }
 /*navigation bar*/
@@ -39,7 +39,7 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family: math;
+  font-family: Arial, sans-serif;
   font-weight: bold;
 }
 
@@ -55,7 +55,7 @@ div {
   background-color:#EDE8F5;
 border:1px ;
 color:black;
-font-family: math;
+font-family:  Arial, sans-serif;
 }
 div{
   height:400px;
@@ -84,3 +84,4 @@ div{
   text-align: center;
 }
 */
+
