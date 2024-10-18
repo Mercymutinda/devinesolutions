@@ -1,61 +1,96 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title> DIVINE SOLUTION</title>
+    <title>DIVINE SOLUTION</title>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-    <link rel="stylesheet" href="./divine.css"/>
-    <img src="images/logo.png" alt="Logo" width="90px"  height="90px"  vertical-align="middle" >
-    <span>DIVINE SOLUTIONS.</span> 
-    <!-- <img src="path/to/logo.png" alt="Logo" style="width: 30px; height: 30px; vertical-align: middle;">
-    <span>Your Name</span>-->
+    <link rel="stylesheet" href="divine.css"/>
 </head>
 <body>
-<!-- navigation bar -->
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#services">Services</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-<div>
-  <h2 id="home"> Home page</h2> 
-  <!--main image -->
-  <img src="images/divine1.png" alt="Divine solutions" height="350px"> 
+    <!-- Logo and Title -->
+    <div class="header">
+        <img src="images/logo.png" alt="Logo" width="90px" height="90px">
+        <span>DIVINE SOLUTIONS.</span>
+    </div>
 
-</div>
-<div> 
- <h2 id="services"> Services</h2>
- <p>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, officia. Itaque porro earum nihil fuga accusamus officiis fugit ad illo qui inventore mollitia, repellat adipisci, nesciunt consequuntur facilis sit. Nesciunt.
- </p>
- 
-</div>
-<div>
-  <h2 id="about"> About Us</h2>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit ipsum, aspernatur reiciendis numquam dolore, fugit, quibusdam minus eos optio amet assumenda accusantium? Quibusdam, placeat quas? Optio, quas suscipit. Similique, error!
-  </p>
-</div>
+    <!-- Navigation Bar -->
+    <ul class="nav">
+        <li class="lists"><a class="active" href="#home">Home</a></li>
+        <li class="lists"><a href="#services">Services</a></li>
+        <li class="lists"><a href="#contact">Contact</a></li>
+        <li class="lists"><a href="#about">About</a></li>
+    </ul>
 
-<div>
-  <h2 id="contact"> Contact</h2>
-   
-  <p><img src="images/phone1.png" width= "30px" height="30px" vertical-align="middle"  alt="phone icon"> Phone: +2547 000 000 000</p>
-  <p><img src="images/email.png" width="40px" height="30px" vertical-align="middle;" alt="emails icon">Email: mgfvdhvgcm@gmail.com</p>
-  
-  <p>Physical Address: Kibwezi, Kenya</p><p>
-    <img src="images/address.png" width="40px" height="30px" vertical-align="middle" alt="location icon">
-    <a href="HXQ7+FX4, Kibwezi"target="_blank">Location
-     </a>
- </p>
- <p>  Working Hours: Mon-Sat, 8 AM - 7 PM.</p> 
- 
-</div>
-       
+    <!-- Main Content -->
+     <!--<main>-->
+      <section >
+    <div>
+        <h2 id="home">Welcome!</h2>
+        <img src="images/divine1.png" alt="Divine solutions" height="350px" class="homeimg"> 
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem sunt repellat natus cumque exercitationem, a enim error quis! Perferendis explicabo voluptas laboriosam praesentium eaque natus est eveniet, voluptatibus suscipit?</p>
+    
+      </div>
+</section>
+<section class="wide">
+  <div>
+        <h2 id="services">Services</h2>
+          <div class="service-item">
+              <h3>CCTV Installation</h3>
+              <p>Protect your home or business with our professional CCTV installation services. Our team will assess your property, recommend the best camera placements, and ensure that your security system is set up to meet your needs.</p>
+          </div>
+          <div class="service-item">
+              <h3>Computer Maintenance</h3>
+              <p>Keep your computer running smoothly with our comprehensive maintenance services. From virus removal to hardware upgrades, our technicians will help ensure your computer operates at peak performance.</p>
+          </div>
+          <div class="service-item">
+              <h3>Phone Screen Repair</h3>
+              <p>Don’t let a cracked screen slow you down! Our quick and efficient phone screen repair services will have your device looking as good as new in no time.</p>
+          </div>
+          <div class="service-item">
+              <h3>Custom Solutions</h3>
+              <p>If you have unique technology needs, we’re here to help! Contact us to discuss custom solutions tailored specifically to you.</p>
+          </div>
+          <p>For more information about our services or to schedule an appointment, please contact us today!</p>
+      </div>
+      
+   </div>   
+</section>
+<section class="about">
+    <div>
+        <h2 id="about">About Us</h2>
+          <p>Devine Solutions has been at the forefront of technology solutions for over 15 years. Our mission is to provide our customers with the highest level of service and the latest technology products available. We understand the importance of security and functionality in your daily life, and we are committed to delivering solutions that meet your unique needs.</p>
+          <p>Our team of skilled technicians has extensive experience in CCTV installation, computer maintenance, and phone screen repairs. We take pride in our work and ensure that every project is completed to the highest standards.</p>
+          <p>As a locally owned business, we believe in building lasting relationships with our customers. We take the time to understand your needs and provide personalized service to ensure you are completely satisfied with our work.</p>
+          <p>Thank you for choosing Devine Solutions for your technology solutions. We look forward to serving you!</p>
+      
+    </p>
+    </div>
+    </section>
+</main>
+    <!-- Contact Section -->
+    <div class="contact-grid">
+        <h2 id="contact">Contact</h2>
+        <div class="contact-item">
+            <img src="images/phone1.png" width="30px" height="30px" alt="phone icon">
+            <span>Phone: +2547 000 000 000</span>
+        </div>
+        <div class="contact-item">
+            <img src="images/email.png" width="40px" height="30px" alt="emails icon">
+            <span>Email: mgfvdhvgcm@gmail.com</span>
+        </div>
+        <div class="contact-item">
+            <img src="images/address.png" width="40px" height="30px" alt="location icon">
+            <span>Physical Address: Kibwezi, Kenya</span>
+        </div>
+        <div class="contact-item">
+            <span>Working Hours: Mon-Sat: 8 AM - 7 PM</span>
+        </div>
+    </div>
 
-
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 DEVINE SOLUTION. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
 
